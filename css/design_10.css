@@ -1,70 +1,74 @@
-.wrapper{
+.temp
+{
+	display:flex;
+	flex-direction:column;
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color:gray;
+}
+.temp .one
+{
+	display:flex;
+	flex-direction:column;
+	margin-left:250px;
+}
+.temp .one .dark
+{
+	width:100px;
+	height:30px;
+	background-color:brown;
+	margin:10px;
+}
+.temp .one .text
+{
+	width:80px;
+	height:20px;
+	background-color:blue;
+	margin:10px;
+}
+.bb
+{
+	height:320px;
+	width:250px;
+	background-color:#333333;
+	margin:10px;
+}
+.sb
+{
+	height:150px;
+	width:250px;
+	background-color:black;
+	margin:10px;
+}
+.temp .two
+{
 	display:flex;
 	flex-direction:row;
-	background-color:black;
-	flex-wrap:wrap;
-	width:100%;
-	height:800px;
-	padding:40px;
-	
+	justify-content:center;
 }
-.one{
-	width:20%;
-	height:100px;
-	margin-left:20px;
-	margin:5px;
-	background-color:gray;
-	
+.temp .two .split1
+{
+	display:flex;
+	flex-direction:column-reverse;
 }
-.two{
-	width:20%;
-	height:300px;
-	margin:5px;
-	background-color:gray;
+.temp .two .split2
+{
+	display:flex;
+	flex-direction:column;
 }
-.three{
-	width:20%;
-	height:100px;
-	margin:5px;
-	background-color:gray;
+.temp .two .split3
+{
+	display:flex;
+	flex-direction:column-reverse;
 }
-.four{
-	width:20%;
-	height:100px;
-	margin:5px;
-	background-color:gray;
+.temp .two .split4
+{
+	display:flex;
+	flex-direction:column;
 }
-.five{
-	display:inline;
-	width:20%;
-	height:400px;
-	margin-left:20px;
-	margin:5px;
-	background-color:gray;
-	align-self:flex-start;
-}
-.six{
-	width:20%;
-	height:100px;
-	margin:5px;
-	background-color:gray;
-}
-.seven{
-	width:20%;
-	height:400px;
-	margin:5px;
-	background-color:gray;
-}
-.eight{
-	width:20%;
-	height:100px;
-	margin:5px;
-	background-color:gray;
-}
-.nine{
-	width:20%;
-	height:50px;
-	margin:5px;
-	background-color:gray;
-	align-self:auto;
-}
+
+
+
+
+  
+
